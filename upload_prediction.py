@@ -7,6 +7,6 @@ result = {
 success = requests.post('https://research-api.solarkim.com/submissions/cmpt-2024',
                     data=json.dumps(result),
                     headers={
-                        'Authorization': f'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJobk1UVmlkY3hjRVJZM3FWdnpkeEQyIiwiaWF0IjoxNzMwMTU2NzU3LCJleHAiOjE3MzE1OTY0MDAsInR5cGUiOiJhcGlfa2V5In0.2hcgpvv-8Q9n8RHnpgGxTaO6jeAFn8n00ARP9dLWMyY'
+                        'Authorization': 'API-KEY'
                     }).json()
 print(success) 
