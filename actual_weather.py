@@ -6,7 +6,7 @@ weather_df_2 = []
 '''for i in range(23, 32):
     date = '2024-10-{}'.format(str(i))
     actual_weather = requests.get(f'https://research-api.solarkim.com/data/cmpt-2024/actual-weather/{date}', headers={
-                                'Authorization': f'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJobk1UVmlkY3hjRVJZM3FWdnpkeEQyIiwiaWF0IjoxNzMwMTU2NzU3LCJleHAiOjE3MzE1OTY0MDAsInR5cGUiOiJhcGlfa2V5In0.2hcgpvv-8Q9n8RHnpgGxTaO6jeAFn8n00ARP9dLWMyY'
+                                'Authorization': 'API-KEY'
                             }).json()
     for j in actual_weather["actual_weather_1"]:
         weather_df_1.append(j)
@@ -16,7 +16,7 @@ weather_df_2 = []
 for i in range(13, 14):
     date = '2024-11-{}'.format(str(i))
     actual_weather = requests.get(f'https://research-api.solarkim.com/data/cmpt-2024/actual-weather/{date}', headers={
-                                'Authorization': f'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJobk1UVmlkY3hjRVJZM3FWdnpkeEQyIiwiaWF0IjoxNzMwMTU2NzU3LCJleHAiOjE3MzE1OTY0MDAsInR5cGUiOiJhcGlfa2V5In0.2hcgpvv-8Q9n8RHnpgGxTaO6jeAFn8n00ARP9dLWMyY'
+                                'Authorization': 'API-KEY'
                             }).json()
     for j in actual_weather["actual_weather_1"]:
         weather_df_1.append(j)
@@ -37,7 +37,7 @@ import pandas as pd
 import json
 date = '2024-11-{}'.format("11")
 actual_weather = requests.get(f'https://research-api.solarkim.com/data/cmpt-2024/actual-weather/{date}', headers={
-                                'Authorization': f'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJobk1UVmlkY3hjRVJZM3FWdnpkeEQyIiwiaWF0IjoxNzMwMTU2NzU3LCJleHAiOjE3MzE1OTY0MDAsInR5cGUiOiJhcGlfa2V5In0.2hcgpvv-8Q9n8RHnpgGxTaO6jeAFn8n00ARP9dLWMyY'
+                                'Authorization': 'API-KEY'
                             }).json()
 print(actual_weather)'''
 # %%
