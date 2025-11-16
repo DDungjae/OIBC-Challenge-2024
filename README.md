@@ -1,12 +1,13 @@
 # OIBC-Challenge-2024
 
 
-This repository contains the full codebase, analysis notebooks, data pipelines, and presentation materials used for the **OIBC (One-Inch Bigdata Competition) Challenge 2024** (https://dataen.ai/challenge).  
-The project focuses on forecasting solar power generation, electricity market prices, and weather-related variables using a combination of geospatial information, time-series modeling, and automated data collection.
+This repository contains the full codebase, analysis notebooks, data pipelines, and presentation materials used for the **OIBC (One-Inch Bigdata Competition) Challenge 2024** (https://dataen.ai/challenge). \\
 
-I ranked 6th among 200 participants at this competition and received encouragement award. 
+The project focuses on forecasting solar power generation, electricity market prices, and weather-related variables using a combination of geospatial information, time-series modeling, and automated data collection.\\
 
-More specific process of this competiton is in pdf file on OIBC_presentation.pdf
+I ranked 6th among 200 participants at this competition and received encouragement award. \\
+
+More specific process of this competiton is in pdf file on OIBC_presentation.pdf.\\
 
 ---
 
